@@ -16,11 +16,13 @@ name = input("what's your name? ")
 
 with open("names.txt", "a") as file:
     file.write(f"{name}\n")
-
-## by using with, file can be automatically closed after being written
-## "w" for write (and rewrite everytime the program runs)
-## "a" for append
-## "r" for read can be omitted as an implicit default
+    
+'''
+by using with, file can be automatically closed after being written
+"w" for write (and rewrite everytime the program runs)
+"a" for append
+"r" for read can be omitted as an implicit default
+'''
 
 names = []
 

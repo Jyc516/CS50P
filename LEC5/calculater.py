@@ -4,8 +4,7 @@ def main():
 
 
 def square(x):
-    return x + x
-## faulty deliberately
+    return x + x    # faulty deliberately
 
 
 if __name__ == "__main__":

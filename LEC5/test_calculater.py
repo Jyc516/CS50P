@@ -12,10 +12,10 @@ def test_negative():
 
 def test_zero():
     assert calc.square(0) == 0
-
-## "assert" are required to jump out of the test function when meeting an error
-## must start with "test_" so as to be detected by pytest
-
+'''
+"assert" is required to jump out of the test function when meeting an error
+must start with "test_" so as to be detected by pytest
+'''
 
 
 
