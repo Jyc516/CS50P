@@ -5,7 +5,7 @@ from pytest import raises
 def test_hour():
     with raises(ValueError) as excinfo:
         convert("9:00 AM to 13:00 PM")
-    assert  excinfo.type is ValueError
+    assert excinfo.type is ValueError
 
 
 def test_min():
